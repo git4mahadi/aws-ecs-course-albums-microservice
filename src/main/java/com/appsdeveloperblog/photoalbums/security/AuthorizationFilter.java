@@ -16,7 +16,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 /**
 *
-* @author sergeykargopolov
+* @author mahadi
 */
 public class AuthorizationFilter extends BasicAuthenticationFilter {
 

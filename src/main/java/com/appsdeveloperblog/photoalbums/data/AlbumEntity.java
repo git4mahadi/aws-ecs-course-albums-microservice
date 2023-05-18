@@ -12,45 +12,44 @@ import jakarta.persistence.Table;
 @Table(name = "albums")
 public class AlbumEntity implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-	@Id
-    @GeneratedValue
-    private long id;
+  @Id
+  @GeneratedValue
+  private long id;
 
-    @Column(nullable = false)
-    private String userId;
-    
-    @Column(nullable = false, unique = true)
-    private String albumId;
- 
-    @Column(nullable = false, length = 225)
-    private String title;
+  @Column(nullable = false)
+  private String userId;
 
-	public String getUserId() {
-		return userId;
-	}
+  @Column(nullable = false, unique = true)
+  private String albumId;
 
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
+  @Column(nullable = false, length = 225)
+  private String title;
 
-	public String getAlbumId() {
-		return albumId;
-	}
+  public String getUserId() {
+    return userId;
+  }
 
-	public void setAlbumId(String albumId) {
-		this.albumId = albumId;
-	}
+  public void setUserId(String userId) {
+    this.userId = userId;
+  }
 
-	public String getTitle() {
-		return title;
-	}
+  public String getAlbumId() {
+    return albumId;
+  }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
- 
-    
+  public void setAlbumId(String albumId) {
+    this.albumId = albumId;
+  }
+
+  public String getTitle() {
+    return title;
+  }
+
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
 
 }

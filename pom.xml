@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.appsdeveloperblog</groupId>
-	<artifactId>albums-service</artifactId>
+	<artifactId>aws-ecs-albums-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>albums-service</name>
+	<name>aws-ecs-albums-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -87,7 +87,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>albums-service</finalName>
+		<finalName>aws-ecs-albums-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
